@@ -18,7 +18,7 @@ jobs:
           uses: jossef/action-set-json-field@v2
           with:
             file: config.json
-            field: env.urlsetting
+            field: local.urlsetting
             value: HelloThere
         - name: Zip artifact for deployment
           run: zip release.zip * -r -x *.git*

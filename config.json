@@ -1,17 +1,17 @@
-[
-    {
-        "env": "local",
-        "urlsetting": "https:80//local",
-        "publisherid": "local1234"
+{
+    "local" : {
+      "env": "local",
+      "urlsetting": "https:80//local",
+      "publisherid": "local1234"
     },
-    {
-        "env": "development",
-        "urlsetting": "https:80//dev",
-        "publisherid": "dev1234"
+    "development" : {
+      "env": "development",
+      "urlsetting": "https:80//dev",
+      "publisherid": "dev1234"
     },
-    {
-        "env": "qa",
-        "urlsetting": "https:80//qa",
-        "publisherid": "qa1234"
+    "qa" : {
+      "env": "qa",
+      "urlsetting": "https:80//qa",
+      "publisherid": "qa1234"
     }
-]
+  }
