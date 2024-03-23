@@ -2,7 +2,7 @@ name: Scheduled Runner
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '0 8 * * *'
   
 jobs:
     test_schedule:
@@ -10,5 +10,5 @@ jobs:
         steps:
         - name: 'Not on Monday or Wednesday'
           run: echo "This step will be skipped on Monday and Wednesday"
-        - name: 'Every time'
-          run: echo "This step will always run"
+        # - name: 'Every time'
+        #   run: echo "This step will always run"
